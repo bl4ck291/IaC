@@ -1,0 +1,6 @@
+---
+- name: Install Docker and Deploy Django app
+  hosts: app
+  become: true
+  roles:
+    - Lab2

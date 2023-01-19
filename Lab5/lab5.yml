@@ -1,0 +1,16 @@
+---
+- name: Install and configure Postgresql
+  hosts: master
+  become: true
+  roles:
+    - Lab5
+  vars:
+    postgresql_role: master
+
+- name: Install and configure Postgresql replica
+  hosts: replica
+  become: true
+  roles:
+    - Lab5
+  vars:
+    postgresql_role: replica

@@ -1,0 +1,6 @@
+---
+- name: Install OpenVPN server and generate connection file
+  hosts: ovpnserver
+  become: true
+  roles:
+    - Lab4

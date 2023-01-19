@@ -1,0 +1,12 @@
+---
+- name: Install Docker and run django app on it
+  hosts: app
+  become: true
+  roles:
+    - Lab2
+
+- name: Install Nginx and proxy the django app
+  hosts: web
+  become: true
+  roles:
+    - Lab3

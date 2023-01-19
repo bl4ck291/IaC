@@ -1,0 +1,12 @@
+[submodule "Lab2/Docker"]
+	path = Lab2/Docker
+	url = https://gitlab.com/iac91/Lab2.git
+[submodule "Lab3/nginx/Lab3"]
+	path = Lab3/nginx/Lab3
+	url = https://gitlab.com/iac91/Lab3.git
+[submodule "Lab4/openvpn"]
+	path = Lab4/openvpn
+	url = https://gitlab.com/iac91/Lab4.git
+[submodule "Lab5/postgres"]
+	path = Lab5/postgres
+	url = https://gitlab.com/iac91/Lab5.git

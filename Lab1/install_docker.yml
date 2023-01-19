@@ -1,0 +1,11 @@
+---
+- name: Install Docker
+  hosts: app
+  become: true
+  tasks:
+    - name: Install docker.io
+      ansible.builtin.apt:
+        name:
+          - docker.io
+        state: latest
+        update_cache: true
